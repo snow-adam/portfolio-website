@@ -6,38 +6,64 @@
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/webp" href="/favicon.webp" />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="A website that contains information about me and features some of the projects I have built.">
 		<meta name="generator" content={Astro.generator} />
 		<title>Adam Snow</title>
 	</head>
-	<body class="bg-stone-950 text-white max-w-2xl mx-auto">
-		<nav class="mt-10 mb-10 font-medium">
-			<ul class="flex space-x-5">
-				<li class="cursor-pointer underline underline-offset-4 decoration-neutral-500">home</li>
-				<li class=" text-neutral-500"><a href="projects.html">projects</a></li>
+
+	<body class="bg-stone-950 text-white max-w-2xl lg:mx-auto md:ml-4 md:mr-4 ml-6 mr-6">
+		<nav class="mt-14">
+			<ul class="flex space-x-4">
+				<li class="cursor-pointer underline underline-offset-8 decoration-neutral-800 hover:text-neutral-200 transition-all">home</li>
+				<a href="https://adamsnow.dev/projects"><li class="text-neutral-500 hover:text-neutral-200 transition-all">projects</li></a>
 			</ul>
 		</nav>
 
+		<header class="font-semibold text-2xl mt-16">
+			<h1>hey, I'm adam 👋</h1>
+		</header>
+
 		<main>
-			<header class="font-semibold text-2xl">
-				<h1>hey, I'm adam 👋</h1>
-			</header>
+			<article class="mt-10 text-neutral-300">
+				<a href="https://www.codecademy.com/resources/blog/what-does-a-full-stack-developer-do/" target="_blank" class="underline decoration-neutral-600 decoration-2 hover:text-white hover:decoration-neutral-500 transition-all"></a>
+				<p class="mt-7">
+					I'm studying Computer Science in Sydney, Australia at the University of Wollongong, double majoring in Software Engineering and Web Design & Development. I've had my hands full, learning everything from programming, web development, databases, networking, and more.
+				</p>
+	
+				<p class="mt-3">
+					Right now, I'm focusing on front-end development by messing around with a mix of HTML, CSS, JavaScript, TypeScript, and React. But that's not all - I'm also planning to figure out the back-end side of things, possibly exploring Node.js, Express, and PostgreSQL in the future.
+				</p>
+	
+				<p class="mt-3">
+					I've been hooked on coding for a couple of years now. I enjoy the process of turning a bunch of code lines into something that actually works. It's a cool mix of creativity and problem-solving, with the added bonus of seeing my projects come to life.
+				</p>
+	
+				<p class="mt-3">
+					When I'm not coding or studying, you'll find me gaming with friends or watching livestreams. It's my way of keeping things balanced.
+				</p>
 
-			<p class="mt-7 text-neutral-300">
-				I'm an aspiring <span class="underline decoration-teal-400 decoration-2">full-stack software engineer</span> and web development enthusiast, currently venturing into the vast field of computer science. I'm learning about various aspects of software engineering, focusing particularly on front-end development and community building.
-			</p>
-
-			<p class="mt-7 text-neutral-300">
-				I'm excited to share my learning journey in web development, JavaScript, TypeScript, React, and Next.js, among other topics. My aim is to document my progress and the valuable lessons I learn along the way.
-			</p>
-
-			<p class="mt-7 text-neutral-300">
-				As of now, my time is spent diving headfirst into learning and content creation. My focus is on sharing my journey, discussing the technologies I'm discovering, and documenting my development and growth in the field.
-			</p>
-
-			<p class="mt-7 text-neutral-300">
-				In the future, I am keen on supporting and learning from early-stage startups that are crafting tools for developers.
-				Eagerly looking forward to opportunities for collaboration, learning more about developer marketing, and how to build thriving open-source communities.
-			</p>	  
+				<p class="mt-3">
+					Down the line, I hope to put all this learning and experimenting to good use as a Full-Stack Software Engineer. I'm early in my journey at the monment, but I have big plans for the future.
+				</p>
+			</article>
 		</main>
+
+		<footer class="mt-7 md:flex">
+			<a href="https://github.com/snow-adam" target="_blank" class="flex text-neutral-300 hover:text-neutral-100 transition-all">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-1 mt-1 mb-3">
+					<path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
+					<p>follow me on github</p>
+				</svg>
+			</a>
+
+			<span class="md:mr-3"></span>
+			
+			<a href="mailto:snowadam@icloud.com" target="_blank" class="flex text-neutral-300 hover:text-neutral-100 transition-all">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-1 mt-1">
+					<path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
+					<p>get in contact</p>
+				</svg>
+			</a>
+		</footer>
 	</body>
 </html>

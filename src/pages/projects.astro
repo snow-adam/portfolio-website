@@ -1,0 +1,49 @@
+---
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/webp" href="/favicon.webp" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="A website that contains information about me and features some of the projects I have built.">
+		<meta name="generator" content={Astro.generator} />
+		<title>Adam Snow</title>
+	</head>
+
+	<body class="bg-stone-950 text-white max-w-2xl lg:mx-auto md:ml-4 md:mr-4 ml-6 mr-6">
+		<nav class="mt-14">
+			<ul class="flex space-x-4">
+				<a href="https://adamsnow.dev"><li class="text-neutral-500 hover:text-neutral-200 transition-all">home</li></a>
+				<li class="cursor-pointer underline underline-offset-8 decoration-neutral-800 hover:text-neutral-200 transition-all">projects</li>
+			</ul>
+		</nav>
+
+		<header class="font-semibold text-2xl mt-16">
+			<h1>browse my projects</h1>
+		</header>
+
+		<main class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-2xl mt-10 h-24">
+            <a href="https://threadit.space" target="_blank" class="cursor-pointer bg-neutral-800 rounded border border-neutral-700 flex items-center justify-between h-24">
+              <div class="flex items-center">
+                <img src="reddit.webp" class="w-16 h-16 ml-4 rounded-full border border-neutral-700">
+                <p class="ml-3 font-medium text-neutral-100 whitespace-nowrap">threadit-app<br><span class="font-normal text-neutral-400">threadit.space</span></p>
+              </div>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-4 text-neutral-300">
+                <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          
+            <a href="https://adamsnow.dev" class="cursor-pointer bg-neutral-800 rounded border border-neutral-700 flex items-center h-24">
+              <img src="compass.webp" class="w-16 h-16 ml-4 rounded-full border border-neutral-700">
+              <p class="ml-3 font-medium text-neutral-100 whitespace-nowrap">adam-snow<br><span class="font-normal text-neutral-400">adamsnow.dev</span></p>
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 mr-4 text-neutral-300 ml-auto">
+                <path fill-rule="evenodd" d="M2.232 12.207a.75.75 0 011.06.025l3.958 4.146V6.375a5.375 5.375 0 0110.75 0V9.25a.75.75 0 01-1.5 0V6.375a3.875 3.875 0 00-7.75 0v10.003l3.957-4.146a.75.75 0 011.085 1.036l-5.25 5.5a.75.75 0 01-1.085 0l-5.25-5.5a.75.75 0 01.025-1.06z" clip-rule="evenodd" />
+              </svg>     
+            </a>
+          </main>
+          
+	</body>
+</html>
