@@ -1,15 +1,15 @@
-# Portfolio Website
-#### [A static webpage elegantly crafted to deliver a clean, seamless view of my personal portfolio.](https://adamsnow.dev)
+# adam-snow
+#### [A website that contains information about me and features some of the projects I have built.](https://adamsnow.dev)
 
 ## Features
 - Dark Theme
-- Clean Font
-- Interactive Icons
-- Responsive Layout
-- Live Previews
+- Responsive Design
+- Home Page
+- Projects Page
 
 ## Technologies
-[![](https://skillicons.dev/icons?i=html,css,js,ts,astro,git,github,tailwind,vscode,vercel,bash,md)](https://adamsnow.dev)
+[![](https://skillicons.dev/icons?i=html,css,tailwind)](https://adamsnow.dev)
 
 ## Screenshots
-[![](public/screenshot.png)](https://adamsnow.dev)
+[![](public/home-screenshot.png)](https://adamsnow.dev)
+[![](public/projects-screenshot.png)](https://adamsnow.dev)
