@@ -1,4 +1,4 @@
-# adam-snow
+# Portfolio Website
 #### [A website that contains information about me and features some of the projects I have built.](https://adamsnow.dev)
 
 ## Features
