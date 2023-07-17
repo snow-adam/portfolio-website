@@ -4,8 +4,8 @@
 ## Features
 - Home Page
 - Projects Page
+- Dark Theme
 - Reponsive Design
-- Dual Themes
 
 ## Technologies
 [![](https://skillicons.dev/icons?i=html,css,js,ts,astro,git,tailwind,github,vscode,vercel,bash,md)](https://adamsnow.dev)
