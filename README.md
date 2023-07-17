@@ -2,13 +2,13 @@
 #### [A website that contains information about me and features some of the projects I have built.](https://adamsnow.dev)
 
 ## Features
-- Dark Theme
-- Responsive Design
 - Home Page
 - Projects Page
+- Reponsive Design
+- Dual Themes
 
 ## Technologies
-[![](https://skillicons.dev/icons?i=html,css,tailwind)](https://adamsnow.dev)
+[![](https://skillicons.dev/icons?i=html,css,js,ts,astro,git,tailwind,github,vscode,vercel,bash,md)](https://adamsnow.dev)
 
 ## Screenshots
 [![](public/home-screenshot.png)](https://adamsnow.dev)
