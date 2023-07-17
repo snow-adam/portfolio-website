@@ -8,7 +8,7 @@
 - Projects Page
 
 ## Technologies
-[![](https://skillicons.dev/icons?i=html,css,tailwind)](https://adamsnow.dev)
+[![](https://skillicons.dev/icons?i=astro,ts,tailwind)](https://adamsnow.dev)
 
 ## Screenshots
 [![](public/home-screenshot.png)](https://adamsnow.dev)
