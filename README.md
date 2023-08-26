@@ -1,5 +1,5 @@
 # Portfolio Website
-#### [A website that contains information about me and features some of the projects I have built.](https://adamsnow.dev)
+#### [A static webpage elegantly crafted to deliver a clean, seamless view of my personal portfolio.](https://adamsnow.dev)
 
 ## Features
 - Home Page
