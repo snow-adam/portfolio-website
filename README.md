@@ -8,7 +8,7 @@
 - Reponsive Design
 
 ## Technologies
-[![](https://skillicons.dev/icons?i=html,css,astro,git,tailwind,github,vscode,vercel,bash,md)](https://adamsnow.dev)
+[![](https://skillicons.dev/icons?i=html,css,astro,git,tailwind,figma,vercel,github,vscode,bash,md)](https://adamsnow.dev)
 
 ## Screenshots
 [![](public/home-screenshot.png)](https://adamsnow.dev)
