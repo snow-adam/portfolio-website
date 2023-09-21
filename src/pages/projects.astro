@@ -10,39 +10,41 @@
 	</head>
 
 	<body class="bg-stone-950 text-white max-w-2xl lg:mx-auto md:ml-4 md:mr-4 ml-6 mr-6">
-		<nav class="mt-14">
-			<ul class="flex space-x-4">
-				<li>
-					<a href="https://adamsnow.dev" class="text-neutral-400 hover:text-neutral-200 transition-all">home</a>
-				</li>
-				<li class="cursor-pointer underline underline-offset-8 decoration-neutral-800 hover:text-neutral-200 transition-all">
-					projects
-				</li>
-			</ul>
-		</nav>
+		<main>
+			<nav class="mt-14">
+				<ul class="flex space-x-4">
+					<li>
+						<a href="https://adamsnow.dev" class="text-neutral-400 hover:text-neutral-200 transition-all">home</a>
+					</li>
+					<li class="cursor-pointer underline underline-offset-8 decoration-neutral-800 hover:text-neutral-200 transition-all">
+						projects
+					</li>
+				</ul>
+			</nav>
+	
+			<header class="font-semibold text-2xl mt-16">
+				<h1>browse my projects</h1>
+			</header>
 
-		<header class="font-semibold text-2xl mt-16">
-			<h1>browse my projects</h1>
-		</header>
+			<section class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-2xl mt-10 h-24 mb-36">
+				<a href="https://threddit.app" target="_blank" class="cursor-pointer bg-neutral-800 rounded border border-neutral-700 flex items-center h-24">
+					<img src="reddit.webp" alt="Threddit App" class="w-16 h-16 ml-4 rounded-full border border-neutral-700">
+					<img src="react.webp" alt="React Icon" class="w-6 h-6 -ml-7 mt-10 rounded-full border border-neutral-700">
+					<p class="ml-3 font-medium text-neutral-100 whitespace-nowrap">threddit-app<br><span class="font-normal text-neutral-400">threddit.app</span></p>
+					
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-4 text-neutral-300 ml-auto">
+						<path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
+					</svg>
+				</a>
 
-		<main class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-2xl mt-10 h-24 mb-36">
-			<a href="https://threddit.app" target="_blank" class="cursor-pointer bg-neutral-800 rounded border border-neutral-700 flex items-center h-24">
-				<img src="reddit.webp" alt="Threddit App" class="w-16 h-16 ml-4 rounded-full border border-neutral-700">
-				<img src="react.webp" alt="React Icon" class="w-6 h-6 -ml-7 mt-10 rounded-full border border-neutral-700">
-				<p class="ml-3 font-medium text-neutral-100 whitespace-nowrap">threddit-app<br><span class="font-normal text-neutral-400">threddit.app</span></p>
-				
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-4 text-neutral-300 ml-auto">
-					<path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
-				</svg>
-			</a>
-
-			<div class="cursor-pointer bg-neutral-800 rounded border border-neutral-700 flex items-center h-24">
-				<img src="compass.webp" alt="Portfolio Website" class="w-16 h-16 ml-4 rounded-full border border-neutral-700">
-				<img src="tailwind.webp" alt="Tailwind CSS Icon" class="w-6 h-6 -ml-7 mt-10 rounded-full border border-neutral-700">
-				<p class="ml-3 font-medium text-neutral-100 whitespace-nowrap">
-					portfolio-website<br><span class="font-normal text-neutral-400">adamsnow.dev</span>
-				</p>
-            </div>
-          </main>
+				<div class="cursor-pointer bg-neutral-800 rounded border border-neutral-700 flex items-center h-24">
+					<img src="compass.webp" alt="Portfolio Website" class="w-16 h-16 ml-4 rounded-full border border-neutral-700">
+					<img src="tailwind.webp" alt="Tailwind CSS Icon" class="w-6 h-6 -ml-7 mt-10 rounded-full border border-neutral-700">
+					<p class="ml-3 font-medium text-neutral-100 whitespace-nowrap">
+						portfolio-website<br><span class="font-normal text-neutral-400">adamsnow.dev</span>
+					</p>
+				</div>
+			</section>
+    </main>
 	</body>
 </html>
