@@ -1,3 +1,7 @@
+---
+import {ViewTransitions} from 'astro:transitions';
+---
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -7,6 +11,7 @@
 		<meta name="description" content="A static webpage elegantly crafted to deliver a clean, seamless view of my personal portfolio.">
 		<meta name="generator" content={Astro.generator}>
 		<title>Adam Snow</title>
+		<ViewTransitions />
 	</head>
 
 	<body class="bg-stone-950 text-white max-w-2xl lg:mx-auto md:ml-4 md:mr-4 ml-6 mr-6">
@@ -17,7 +22,7 @@
 						home
 					</li>
 					<li>
-						<a href="https://adamsnow.dev/projects" class="text-neutral-400 hover:text-neutral-200 transition-all">
+						<a href="/projects" class="text-neutral-400 hover:text-neutral-200 transition-all">
 							projects
 						</a>
 					</li>
