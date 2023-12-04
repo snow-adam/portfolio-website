@@ -12,7 +12,7 @@
 - <h4>W3C Validated</h4>
 
 <h2>Technologies</h2>
-<a href="https://adamsnow.dev"><img src="https://skillicons.dev/icons?i=html,css,git,astro,tailwind"></a>
+<a href="https://adamsnow.dev"><img src="https://skillicons.dev/icons?i=html,css,astro,tailwind,figma"></a>
 
 <h2>Screenshots</h2>
 <a href="https://adamsnow.dev"><img src="public/home-screenshot.png"</a>
