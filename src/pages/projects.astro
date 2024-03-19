@@ -1,5 +1,6 @@
 ---
 import {ViewTransitions} from 'astro:transitions';
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 ---
 
 <!DOCTYPE html>
@@ -12,6 +13,7 @@ import {ViewTransitions} from 'astro:transitions';
 		<meta name="generator" content={Astro.generator}>
 		<title>Adam Snow</title>
 		<ViewTransitions />
+		<SpeedInsights />
 	</head>
 
 	<body class="bg-stone-950 text-white max-w-2xl lg:mx-auto md:ml-4 md:mr-4 ml-6 mr-6">
