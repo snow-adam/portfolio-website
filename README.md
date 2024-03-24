@@ -16,4 +16,4 @@
 
 <h2>Screenshots</h2>
 <a href="https://adamsnow.dev"><img src="public/home-screenshot.png"</a>
-<a href="https://adamsnow.dev"><img src="public/projects-screenshot.png"</a>
+<a href="https://adamsnow.dev/projects"><img src="public/projects-screenshot.png"</a>
