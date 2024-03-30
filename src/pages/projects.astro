@@ -1,47 +1,70 @@
 ---
-import {ViewTransitions} from 'astro:transitions';
-import  SpeedInsights  from "@vercel/speed-insights/astro";
+import { ViewTransitions } from "astro:transitions";
+import SpeedInsights from "@vercel/speed-insights/astro";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<link rel="icon" type="image/webp" href="/favicon.webp">
-		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="A static webpage elegantly crafted to deliver a clean, seamless view of my personal portfolio.">
-		<meta name="generator" content={Astro.generator}>
-		<title>Adam Snow</title>
-		<ViewTransitions />
-		<SpeedInsights />
-	</head>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/webp" href="/favicon.webp" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="A static webpage elegantly crafted to deliver a clean, seamless view of my personal portfolio."
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>adam snow</title>
+    <ViewTransitions />
+    <SpeedInsights />
+  </head>
 
-	<body class="bg-stone-950 text-white max-w-2xl lg:mx-auto md:ml-4 md:mr-4 ml-6 mr-6">
-		<main>
-			<nav class="mt-14">
-				<ul class="flex space-x-4">
-					<li>
-						<a href="/" class="text-neutral-400 hover:text-neutral-200 transition-all">home</a>
-					</li>
-					<li class="cursor-pointer underline underline-offset-8 decoration-neutral-800 hover:text-neutral-200 transition-all">
-						projects
-					</li>
-				</ul>
-			</nav>
-	
-			<header class="font-semibold text-2xl mt-16">
-				<h1>browse my projects</h1>
-			</header>
+  <body
+    class="bg-stone-950 text-white max-w-2xl lg:mx-auto md:ml-4 md:mr-4 ml-6 mr-6"
+  >
+    <main>
+      <nav class="mt-14">
+        <ul class="flex space-x-4">
+          <li>
+            <a
+              href="/"
+              class="text-neutral-400 hover:text-neutral-200 transition-all"
+              >home</a
+            >
+          </li>
+          <li
+            class="cursor-pointer underline underline-offset-8 decoration-neutral-800 hover:text-neutral-200 transition-all"
+          >
+            projects
+          </li>
+        </ul>
+      </nav>
 
-			<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-2xl mt-10 h-24 mb-36">
-				<div class="cursor-pointer bg-neutral-800 rounded border border-neutral-700 flex items-center h-24">
-					<img src="compass.webp" alt="Portfolio Website" class="w-16 h-16 ml-4 rounded-full border border-neutral-700">
-					<img src="tailwind.webp" alt="Tailwind CSS Icon" class="w-6 h-6 -ml-7 mt-10 rounded-full border border-neutral-700">
-					<p class="ml-3 font-medium text-neutral-100 whitespace-nowrap">
-						portfolio-website<br><span class="font-normal text-neutral-400">adamsnow.dev</span>
-					</p>
-				</div>
-			</div>
+      <header class="font-semibold text-2xl mt-16">
+        <h1>browse my projects</h1>
+      </header>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-2xl mt-10 h-24 mb-36">
+        <div
+          class="cursor-pointer bg-neutral-800 rounded border border-neutral-700 flex items-center h-24"
+        >
+          <img
+            src="compass.webp"
+            alt="Portfolio Website"
+            class="w-16 h-16 ml-4 rounded-full border border-neutral-700"
+          />
+          <img
+            src="tailwind.webp"
+            alt="Tailwind CSS Icon"
+            class="w-6 h-6 -ml-7 mt-10 rounded-full border border-neutral-700"
+          />
+          <p class="ml-3 font-medium text-neutral-100 whitespace-nowrap">
+            portfolio-website<br /><span class="font-normal text-neutral-400"
+              >adamsnow.dev</span
+            >
+          </p>
+        </div>
+      </div>
     </main>
-	</body>
+  </body>
 </html>
