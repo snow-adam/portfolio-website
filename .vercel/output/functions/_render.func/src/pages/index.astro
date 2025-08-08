@@ -1,5 +1,5 @@
 ---
-import {ViewTransitions} from 'astro:transitions';
+import {ClientRouter} from 'astro:transitions';
 import SpeedInsights from "@vercel/speed-insights/astro";
 ---
 
@@ -12,7 +12,7 @@ import SpeedInsights from "@vercel/speed-insights/astro";
 		<meta name="description" content="A static webpage elegantly crafted to deliver a clean, seamless view of my personal portfolio.">
 		<meta name="generator" content={Astro.generator}>
 		<title>adam snow.</title>
-		<ViewTransitions />
+		<ClientRouter />
 		<SpeedInsights />
 	</head>
 
