@@ -1,43 +1,19 @@
-# Astro Starter Kit: Minimal
+<h1>Portfolio Website</h1>
+<h4>A static webpage elegantly crafted to deliver a clean, seamless view of my personal portfolio.</h4>
 
-```sh
-npm create astro@latest -- --template minimal
-```
+<h3><a href="https://adamsnow.dev">Live Preview</a></h3>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<h2>Features</h2>
 
-## 🚀 Project Structure
+- <h4>Dark Theme</h4>
+- <h4>Reponsive Design</h4>
+- <h4>Custom Domain</h4>
+- <h4>Perfect Lighthouse Score</h4>
+- <h4>W3C Validated</h4>
 
-Inside of your Astro project, you'll see the following folders and files:
+<h2>Technologies</h2>
+<a href="https://adamsnow.dev"><img src="https://skillicons.dev/icons?i=html,css,astro,tailwind,vercel"></a>
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<h2>Screenshots</h2>
+<a href="https://adamsnow.dev"><img src="public/images/home-screenshot.png"</a>
+<a href="https://adamsnow.dev/projects"><img src="public/images/projects-screenshot.png"</a>
