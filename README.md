@@ -1,7 +1,9 @@
 <h1>Portfolio Website</h1>
 <h4>A static webpage elegantly crafted to deliver a clean, seamless view of my personal portfolio.</h4>
 
-<h3><a href="https://adamsnow.dev">Live Preview</a></h3>
+<h3>
+  <a href="https://adamsnow.dev">Live Preview</a>
+</h3>
 
 <h2>Features</h2>
 
@@ -12,8 +14,14 @@
 - <h4>W3C Validated</h4>
 
 <h2>Technologies</h2>
-<a href="https://adamsnow.dev"><img src="https://skillicons.dev/icons?i=html,css,astro,tailwind,vercel"></a>
+<a href="https://adamsnow.dev">
+  <img src="https://skillicons.dev/icons?i=html,css,astro,tailwind,vercel">
+</a>
 
 <h2>Screenshots</h2>
-<a href="https://adamsnow.dev"><img src="public/images/home-screenshot.png"</a>
-<a href="https://adamsnow.dev/projects"><img src="public/images/projects-screenshot.png"</a>
+<a href="https://adamsnow.dev">
+  <img src="public/images/home-screenshot.png">
+</a>
+<a href="https://adamsnow.dev/projects">
+  <img src="public/images/projects-screenshot.png">
+</a>
